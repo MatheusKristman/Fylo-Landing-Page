@@ -1,0 +1,191 @@
+.footerTriangle{
+    /* border: 1px solid blue; */
+    position: relative;
+    height: 150px;
+}
+
+.footerTriangle::before{
+    position: absolute;
+    content: '';
+    /* border: 1px solid red; */
+    background-color: white;
+    width: 120%;
+    height: 150px;
+    transform: rotate(8deg) translateX(-5%) translateY(29%);
+
+}
+
+.footerContent{
+    background-color: var(--darkPurple);
+    padding-top: 150px;
+}
+
+
+.footerContact{
+    padding-bottom: 88px;
+}
+
+.footerLogo{
+    width: 162px;
+    height: 55px;
+    margin-bottom: 55px;
+}
+
+.phone, .email{
+    position: relative;
+    display: block;
+    font-size: 0.9rem;
+    padding-left: 40px;
+    background-repeat: no-repeat;
+    background-position: left center;    
+}
+
+.phone{
+    margin-bottom: 24px;
+    background-image: url('../assets/images/icon-phone.svg');
+    line-break: none;
+    hyphens: none;
+}
+
+.number{
+    display: block;
+}
+
+.email{
+    background-image: url('../assets/images/icon-email.svg');
+}
+
+.footerLinksTitles{
+    color: white;
+    font-weight: 700;
+    margin-bottom: 24px;
+    min-width: 145px;
+}
+
+.linkA{
+    padding-top: 0;
+    padding-bottom: 0;
+    display: block;
+    color: white;
+    box-shadow: none;
+    font-size: 0.8rem;
+    line-height: 1.8rem;
+    word-wrap: break-word;
+}
+
+.lA{
+    padding-left: 0;
+}
+
+.fylo{
+    margin-bottom: 56px;    
+}
+
+.company{
+    margin-bottom: 56px;
+}
+
+.support{
+    margin-bottom: 56px;
+}
+
+.footerFormInputs{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.formP{
+    color: white;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.footerInput{
+    width: 100%;
+    border-radius: 3px;
+    margin: 0 0 15px 0;
+    padding: 13px 25px;
+}
+
+.footerButton{
+    display: block;
+    font-size: 1rem;
+    margin: 0;  
+    padding: 11px 60px;
+}
+
+.footerForm{
+    max-width: 362px;
+    margin-bottom: 85px;
+}
+
+@media screen and (min-width: 500px){
+    .footerTriangle::before{
+        transform: rotate(5deg) translateX(-5%) translateY(55%);
+    }
+}
+
+@media screen and (min-width: 1000px){
+    .footerContent{
+        display: flex;
+        padding-top: 220px;
+    }
+
+    .footerContent > div{
+        padding: 0 55px;
+        border-right: 1px solid white;
+    }
+
+    .footerContact{
+        flex: 0 0 225px;
+        order: 1;
+        padding-left: 0px !important;
+    }
+
+    .footerLinks{
+        flex: 5;
+        order: 2;
+        display: flex;
+
+    }
+
+    .footerLinks > div{
+        flex: 1;
+    }
+
+    .footerForm{
+        flex: 3;
+        order: 3;
+        border: none !important;
+        padding-right: 0px !important;
+    }
+    
+}
+
+@media screen and (min-width: 1300px){
+    .footerTriangle{
+        height: 200px;
+    }
+    
+    .footerTriangle::before{
+        height: 200px;
+        transform: rotate(5deg) translateX(-5%) translateY(60%);        
+    }
+
+
+}
+
+@media screen and (min-width: 2250px){
+    .footerTriangle{
+        height: 250px;
+    }
+    
+    .footerTriangle::before{
+        height: 250px;
+        transform: rotate(4deg) translateX(-5%) translateY(60%);        
+    }
+}
+

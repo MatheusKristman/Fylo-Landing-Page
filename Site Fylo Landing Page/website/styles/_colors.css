@@ -1,0 +1,18 @@
+
+:root{
+  /*Primary Color*/
+  --softBlue: hsl(243, 86%, 85%);
+  --veryDarkBlue: hsl(243, 87%, 12%);
+  --darkPurple: #08053c;
+  --medPurple: #474199;
+  --lightGray: #c8c8c8;
+
+  /*Ascent Colors*/
+  --green: hsl(163, 95%, 43%);
+  --darkBlue: hsl(243, 58%, 33%);
+
+  /*Neutral*/
+  --gray: hsl(0, 0%, 50%);
+}
+
+
