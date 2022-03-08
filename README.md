@@ -2,7 +2,7 @@
 
 
 <p align="center">
-   <img src="https://github.com/MatheusKristman/Fylo-Landing-Page/blob/main/Fylo-Landing-Page.png" alt="FyloLandingPage"/>
+   <img src="" alt="FyloLandingPage"/>
 </p>
 
 <p align="center">	
